@@ -1,0 +1,261 @@
+
+.cards:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.cards>a>img{
+    height:25em;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+ }
+ .cards>a>h1{
+    letter-spacing: 5px;
+    font-size: 2em;
+ }
+ .cards>a>p{
+    font-size:1em;
+    padding: 3em;
+ }
+
+
+
+
+
+.leftc{
+    width: 100%;
+    height: auto;
+    margin: 1vw;
+    margin-top: 5vw;
+    display: flex;
+    background-color:  #101010 ;
+    color: white;
+    border-radius: 1vw;
+    transition: 5s;
+}
+.leftc:hover{
+    transform: scale(0.9);
+}
+
+.leftc>img{
+    height:auto;
+    max-width: 50%;
+    border-radius:1vw 0px 0px 1vw;
+
+}
+.leftc>div>h2{
+    font-size: 5vw;
+    margin: 4vw;
+}
+.leftc>div>p{
+    font-size:1.5vw;
+    text-align: justify;
+    margin: 1vw;
+    margin-bottom: 0px;
+    margin-left: 2vw;
+}
+.leftc>div>a{
+    font-size: 2vw;
+    text-decoration: none;
+    background-color: #959595;
+    color: #212121;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 50px;
+    position: relative;
+    left: 30%;
+    top: 2.5%;
+    transition: all 0.5s;
+   
+
+
+}
+.leftc>div>a:hover{
+    font-size: 1.8vw;
+    
+    background-color:#3cc1ff;
+    color: #000000;
+}
+.rightc{
+    width: 100%;
+    height: auto;
+    margin: 1vw;
+    margin-top: 5vw;
+    display: flex;
+    background-color:   #101010  ;
+    color: white;
+    border-radius: 1vw;
+    transition: 5s;
+}
+.rightc:hover{
+    transform: scale(1.06);
+}
+
+.rightc>img{
+    height:auto;
+    max-width: 50%;
+    border-radius:0vw 1vw 1vw 0vw;
+
+}
+
+.rightc>div>h2{
+    font-size: 5vw;
+    margin: 4vw;
+}
+.rightc>div>p{
+    font-size:1.5vw;
+    text-align: justify;
+    margin: 1vw;
+    margin-bottom: 0px;
+    margin-left: 2vw;
+}
+.rightc>div>a{
+    font-size: 2vw;
+    text-decoration: none;
+    background-color: #959595;
+    color: #212121;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 50px;
+    position: relative;
+    left: 30%;
+    top: 2.5%;
+    transition: all 0.5s;
+   
+
+
+}
+.rightc>div>a:hover{
+    font-size: 1.8vw;
+    
+    background-color:#3cc1ff;
+    color: #000000;
+}
+.footer{
+    height:fit-content;
+    background-color: #000000;
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+}
+.footer>div{
+    width: 30%;
+    max-width: 33%;
+    margin-left: 2vw;
+    
+
+    
+    
+}
+.footer>div>h1{
+    font-size: 5vw;
+    letter-spacing: 5px;
+}
+.footer>div>h3{
+    font-size: 2vw;
+    letter-spacing: 2px;
+}
+.footer>div>p{
+    font-size: 1.5vw;
+    
+
+}
+.footer>div>a>img{
+    width: 2vw;
+    margin: 1vw;
+    background-color: white;
+    padding: 0.5vw;
+    
+    border-radius: 30%;
+    
+
+}
+.footer>div>a>img:hover{
+    background-color: #3cc1ff;
+
+}
+.footer-link{
+    margin: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+.footer-link>a{
+    font-size: 1.5vw;
+    transition: 1s;
+    padding-bottom: 3vw;
+    text-decoration: none;
+    color: white;
+    margin: 2vw;
+    
+    
+
+   
+
+}
+.footer-link>a:hover{
+    color: #3cc1ff;
+    cursor: pointer;
+    
+}
+
+.footerabout{
+    margin-top: 1vw;
+    
+}
+.contact{
+    margin-top: 2vw;
+    
+}
+.contact>h2{
+    font-size: 1.5vw;
+    text-decoration: underline;
+}
+.contact>h3>span{
+    font-size: 0.8em;
+}
+.contact>h3>span:hover{
+    color: #3cc1ff;
+}
+.contact>span{
+    font-size: 25px;
+    position:fixed;
+    bottom: 70%;
+    right:0;
+    
+    color: #000000;
+    background-color: #3cc1ff;
+    padding: 10px 20px;
+    border-radius: 2em;
+    transition: 0.5s;
+}
+.contact>span:hover{
+    color: #3cc1ff;
+    background-color: #000000;
+    transform:scale(0.95);
+    
+
+
+}
+.contact>h3{
+    font-size: 0.5em;
+}
+.footer>nav{
+    height: fit-content;
+    color: #ffffff;
+    background-color: #3e3e3e;
+    width: 100%;
+    position:relative;
+    bottom: 0vw; 
+    
+    z-index: 2;
+    font-size:0.5vw;
+    
+}
+.footer>nav>p{
+    margin-left: 5vw;
+}
