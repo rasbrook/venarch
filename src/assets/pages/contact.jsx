@@ -3,6 +3,7 @@ import Dropdown from "../../dropdown"
 import Camp from "../../campanyname"
 import Mode from "../../mode"
 import Fotter from "../../footer"
+import {motion} from 'framer-motion'
 
 
 function Contact(){
@@ -40,17 +41,19 @@ function Contact(){
             <textarea style={{margin:20, width:'90%', color:"inherit" ,backgroundColor:'#3e7190af', overflowX:'hidden'}} type='text'  placeholder="message" rows={10} cols={100}></textarea>
         
         </form>
-        <button 
+        <motion.button 
+        initial={{scale:1, cursor:''}}
+        whileHover={{scale:1.2, cursor:'pointer'}}
         style={{alignItems:'center',
           position:'relative', 
           left:'40%', 
-          backgroundColor:'#3e7090', 
+          backgroundColor:'#00bbff', 
           border:'none', 
           width:'100px',
           borderRadius:'10px',
           height:'50px',
           marginBottom:'5vw',
-          marginTop:'1vw'}}>Submit</button>
+          marginTop:'1vw'}}>Submit</motion.button>
 
 
 
